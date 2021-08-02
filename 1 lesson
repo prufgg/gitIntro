@@ -67,6 +67,9 @@ header {
 
 .main_header {
     display: flex;
+    width: 800px;
+    column-gap: 40px;
+    margin: auto;
 }
 
 h1 {
@@ -86,19 +89,16 @@ h1 {
 .box_1 {
     width: 200px;
     height: 200px;
-    margin: -100px 0 0 420px;
 }
 
 .box_2 {
     width: 200px;
     height: 200px;
-    margin: -100px 0 0 60px;
 }
 
 .box_3 {
     width: 200px;
     height: 200px;
-    margin: -100px 0 0 60px;
 }
 
 .b_shadow {
@@ -120,20 +120,16 @@ h1 {
 
 .main_square {
     display: flex;
-}
-
-.box-with-text {
-    margin: 140px 0 0 160px;
-}
-
-.box-with-text_2 {
-    margin: 200px 0 0 160px;
+    width: 1000px;
+    column-gap: 40px;
+    margin: auto;
+    height: 500px;
 }
 
 .text {
     font-size: 30px;
     text-align: center;
-    margin: 140px 0 0 0 ;
+    margin: auto ;
 }
 
 .text-under-box {
@@ -152,6 +148,10 @@ h1 {
 
 .main_rectangle {
     display: flex;
+    width: 1500px;
+    height: 570px;
+    column-gap: 40px;
+    margin: auto;
 }
 
 .box_with_text_3 {
@@ -186,44 +186,36 @@ h2 {
 
 .main_rectangle_2:before{
     content: "◄";
-    margin-left: 200px;
+    /* margin-left: 200px; */
     margin-top: 210px;
     font-size: 30px;
 }
 
 .main_rectangle_2:after{
     content: "►";
-    margin-left: 30px;
+    /* margin-left: 30px; */
     margin-top: 210px;
     font-size: 30px;
 }
 
 .main_rectangle_2 {
     display: flex;
+    width: 1350px;
+    height: 450px;
+    column-gap: 40px;
+    margin: auto;
 }
 
 .main_rectangle_box {
     display: flex;
+    width: 800px;
+    height: 300px;
+    column-gap: 30px;
+    margin: auto;
 }
 
 .bg_color_2 {
     background-color: rgb(194, 35, 14);
-}
-
-.small_rectangle_3 {
-    margin: 100px 0 0 400px;
-}
-
-.small_box_1 {
-    margin: 100px 0 0 30px;
-}
-
-.small_rectangle_3_1 {
-    margin: 30px 0 0 30px;
-}
-
-.small_box_1_1 {
-    margin: 30px 0 0 400px;
 }
 
 .circle {
@@ -237,14 +229,11 @@ h2 {
 
 .main_circle {
     display: flex;
-}
-
-.small_circle_1 {
-    margin: 100px 0 0 250px;
-}
-
-.small_circle_1_1 {
-    margin: 100px 0 0 30px;
+    width: 1000px;
+    height: 500px;
+    margin: auto;
+    column-gap: 40px;
+    margin-top: 120px;
 }
 </style>
     <div class="main">
