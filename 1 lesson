@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        <header>
+            <h1>LOREM IPSUL</h1>
+            <p class="header_p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, rem.</p>
+        </header>
+
+        <div class="main_header">        
+            <div class="box_1 b_shadow bg-color b-radius"> </div>
+            <div class="box_2 b_shadow bg-color b-radius"> </div>               
+            <div class="box_3 b_shadow bg-color b-radius"> </div>    
+        </div>
+
+        <div class="text">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, minima!</p>
+        </div>
+        <div class="main_square">
+            <div class="box-with-text">
+                <div class="square bg-color b-radius b_shadow"></div> 
+                <span class="text-under-box">Lorem ipsum dolor sit amet consectetur.</span>
+            </div>
+
+            <div class="box-with-text">
+                <div class="square bg-color b-radius b_shadow"></div>
+                <span class="text-under-box">Lorem ipsum dolor sit amet consectetur.</span>
+            </div>
+
+            <div class="box-with-text">
+                <div class="square bg-color b-radius b_shadow"></div>
+                <span class="text-under-box">Lorem ipsum dolor sit amet consectetur.</span>
+            </div>
+
+            <div class="box-with-text">
+                <div class="square bg-color b-radius b_shadow"></div>
+                <span class="text-under-box">Lorem ipsum dolor sit amet consectetur.</span>
+            </div>
+        </div>
+
+        <div class="main_square">
+            <div class="box-with-text_2">
+                <div class="square bg-color b-radius b_shadow"></div> 
+                <span class="text-under-box">Lorem ipsum dolor sit amet consectetur.</span>
+            </div>
+
+            <div class="box-with-text_2">
+                <div class="square bg-color b-radius b_shadow"></div>
+                <span class="text-under-box">Lorem ipsum dolor sit amet consectetur.</span>
+            </div>
+
+            <div class="box-with-text_2">
+                <div class="square bg-color b-radius b_shadow"></div>
+                <span class="text-under-box">Lorem ipsum dolor sit amet consectetur.</span>
+            </div>
+
+            <div class="box-with-text_2">
+                <div class="square bg-color b-radius b_shadow"></div>
+                <span class="text-under-box">Lorem ipsum dolor sit amet consectetur.</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
