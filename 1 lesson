@@ -12,7 +12,6 @@
 </head>
 <body>
 <style>
-
 *{
 	padding: 0;
 	margin: 0;
@@ -145,6 +144,108 @@ h1 {
     width: 60%;
     line-height: 25px;
 }
+
+.rectangle {
+    height: 200px;
+    width: 500px;
+}
+
+.main_rectangle {
+    display: flex;
+}
+
+.box_with_text_3 {
+    margin: 150px 0 0 220px
+}
+
+.box_with_text_3_1 {
+    margin: 150px 0 0 -100px;
+}
+
+h2 {
+    display: block;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 35px;
+    width: 60%;
+    line-height: 25px;
+}
+
+.rectangle_2 {
+    width: 350px;
+    height: 150px;
+}
+
+.small_rectangle {
+    margin: 150px 0 0 30px;
+}
+
+.small_rectangle_2 {
+    margin: 150px 0 0 30px;
+}
+
+.main_rectangle_2:before{
+    content: "◄";
+    margin-left: 200px;
+    margin-top: 210px;
+    font-size: 30px;
+}
+
+.main_rectangle_2:after{
+    content: "►";
+    margin-left: 30px;
+    margin-top: 210px;
+    font-size: 30px;
+}
+
+.main_rectangle_2 {
+    display: flex;
+}
+
+.main_rectangle_box {
+    display: flex;
+}
+
+.bg_color_2 {
+    background-color: rgb(194, 35, 14);
+}
+
+.small_rectangle_3 {
+    margin: 100px 0 0 400px;
+}
+
+.small_box_1 {
+    margin: 100px 0 0 30px;
+}
+
+.small_rectangle_3_1 {
+    margin: 30px 0 0 30px;
+}
+
+.small_box_1_1 {
+    margin: 30px 0 0 400px;
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+}
+
+.c-radius {
+    border-radius: 100%;
+}
+
+.main_circle {
+    display: flex;
+}
+
+.small_circle_1 {
+    margin: 100px 0 0 250px;
+}
+
+.small_circle_1_1 {
+    margin: 100px 0 0 30px;
+}
 </style>
     <div class="main">
         <header>
@@ -202,6 +303,101 @@ h1 {
             <div class="box-with-text_2">
                 <div class="square bg-color b-radius b_shadow"></div>
                 <span class="text-under-box">Lorem ipsum dolor sit amet consectetur.</span>
+            </div>
+        </div>
+
+        <div class="text">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, sequi.</p>
+        </div>
+
+        <div class="main_rectangle">
+            <div class="box_with_text_3">
+                <div class="rectangle bg-color b_shadow b-radius"></div>
+                <h2>Lorem, ipsum dolor.</h2>
+                <span class="text-under-box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, minus?</span>
+            </div>
+
+            <div class="box_with_text_3_1">
+                <div class="rectangle bg-color b_shadow b-radius"></div>
+                <h2>Lorem, ipsum dolor.</h2>
+                <span class="text-under-box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, minus?</span>
+            </div>   
+        </div>
+
+        <div class="main_rectangle">
+            <div class="box_with_text_3">
+                <div class="rectangle bg-color b_shadow b-radius"></div>
+                <h2>Lorem, ipsum dolor.</h2>
+                <span class="text-under-box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, minus?</span>
+            </div>
+
+            <div class="box_with_text_3_1">
+                <div class="rectangle bg-color b_shadow b-radius"></div>
+                <h2>Lorem, ipsum dolor.</h2>
+                <span class="text-under-box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, minus?</span>
+            </div>   
+        </div>
+
+        <div class="text">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+
+        <div class="main_rectangle_2">
+            <div class="small_rectangle">
+                <div class="rectangle_2 bg-color b_shadow b-radius"></div>
+            </div>
+
+            <div class="small_rectangle_2">
+                <div class="rectangle_2 bg-color b_shadow b-radius"></div>
+            </div>
+
+            <div class="small_rectangle_2">
+                <div class="rectangle_2 bg-color b_shadow b-radius"></div>
+            </div>
+        </div>
+
+        <div class="text">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+
+        <div class="main_rectangle_box">
+            <div class="small_rectangle_3">
+                <div class="b_shadow b-radius bg-color rectangle"></div>
+            </div>
+
+            <div class="small_box_1">
+                <div class="b_shadow b-radius square bg_color_2"></div>
+            </div>
+        </div>
+
+        <div class="main_rectangle_box">
+           <div class="small_box_1_1">
+                <div class="b_shadow b-radius square bg_color_2"></div>
+            </div>
+
+            <div class="small_rectangle_3_1">
+                <div class="b_shadow b-radius bg-color rectangle"></div>
+            </div>
+        </div>
+
+        <div class="text">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+        </div>
+        
+        <div class="main_circle">
+            <div class="small_circle_1">
+                <div class="bg-color b_shadow circle c-radius"></div>
+                <span class="text-under-box">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident, neque?</span>
+            </div>
+
+            <div class="small_circle_1_1">
+                <div class="bg-color b_shadow circle c-radius"></div>
+                <span class="text-under-box">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident, neque?</span>
+            </div>
+
+            <div class="small_circle_1_1">
+                <div class="bg-color b_shadow circle c-radius"></div>
+                <span class="text-under-box">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident, neque?</span>
             </div>
         </div>
     </div>
