@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<style>
+  .sidebar {
+    display: flex;
+}
+
+.sidebar-1 {
+    margin: 10px 60px 0 170px;
+}
+
+.sidebar-2 {
+    margin: 15px 0 0 120px;
+    display: flex;
+}
+
+/* .main {
+    margin: auto;
+} */
+
+.links-1 {
+    margin: 0 15px 0 0;
+    color: black;
+}
+a{
+    text-decoration: none;
+}
+
+.Login {
+    width: 100px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 180px;
+    margin: 0 0 0 30px;
+}
+
+.Expert {
+    width: 190px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 180px;
+    margin-left: 30px;
+}
+
+.button {
+    margin: 14px 30px;
+    /* margin-top: 14px; */
+    display: block;
+    /* margin-left: 24px; */
+}
+
+.finance {
+    display: flex;
+}
+
+.finance-1 {
+    width: 400px;
+    height: 400px;
+    margin-left: 160px;
+    margin-top: 80px;
+}
+
+.image-1 {
+    margin-left: 120px;
+}
+
+.finance-2 {
+    margin-left: 160px;
+    margin-top: -270px;
+}
+
+.finance-border {
+    width: 125px;
+    height: 60px;
+    border: 1px solid black;
+    border-radius: 180px;
+}
+
+.button-1 {
+    display: block;
+    margin: 20px 30px;
+}
+
+.image-2 {
+    margin-left: 160px;
+    margin-top: 160px;
+}
+
+.finance-stack {
+    display: flex;
+}
+
+.finance-3 {
+    width: 500px;
+    height: 350px;
+    margin-top: 150px;
+    margin-left: 120px;
+}
+</style>
+    <div class="main">
+        <header class="sidebar">
+            <div class="sidebar-1">
+                <img src="Group37.png" alt="">
+            </div>
+
+            <div class="sidebar-2">
+                <div class="links">
+                    <a class="links-1" href="">Home</a>
+                    <a class="links-1" href="">How it works</a>
+                    <a class="links-1" href="">What we do</a>
+                    <a class="links-1" href="">Who we help</a>
+                    <a class="links-1" href="">Resources</a>
+                </div>
+
+                <div class="Login">
+                    <span class="button">Login</span>
+                </div>
+
+                <div class="Expert">
+                    <span class="button">Talk to an Expert</span>
+                </div>
+            </div>
+        </header>
+
+        <div class="finance">
+            <div class="finance-1">
+                <h1>Get your finances right</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi eaque ex tempora laborum exercitationem fugiat, illo in nulla doloremque praesentium beatae, ullam nostrum consequuntur aut?</p>
+            </div>
+            
+
+            <div class="image-1">
+               <img src="Rectangle.png" alt=""> 
+            </div>
+        </div>
+
+        <div class="finance-2">
+            <h4>Switching to us simple</h4>
+            <div class="finance-border">
+                <span class="button-1">Talk to us</span>
+            </div>
+        </div>
+
+        <div class="finance-stack">
+            <div class="image-2">
+                <img src="Rectangle (1).png" alt="">
+            </div>
+
+            <div class="finance-3">
+                <h2>The best finance stack for entrepreneurs</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error vero, obcaecati tenetur consequatur odio nihil aliquid sint, totam numquam ea animi, modi vel unde. Dolor, distinctio. Laborum, soluta velit? Quam?</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
